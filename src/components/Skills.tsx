@@ -9,8 +9,8 @@ const Skills = () => {
       { name: "Tailwind CSS", level: 70 },
     ],
     tools: [
-      { name: "Git", level: 80 },
-      { name: "VS Code", level: 85 },
+      { name: "Git", level: 60 },
+      { name: "VS Code", level: 70 },
     ],
   };
 

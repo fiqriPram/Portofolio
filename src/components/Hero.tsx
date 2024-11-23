@@ -1,3 +1,7 @@
+'use client';
+
+import Link from 'next/link';
+
 const Hero = () => {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center bg-white dark:bg-slate-900">
@@ -8,9 +12,12 @@ const Hero = () => {
         <p className="text-xl md:text-2xl text-gray-700 dark:text-gray-300 mb-8">
           Frontend Developer 
         </p>
-        <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg shadow-lg hover:shadow-xl transition-all">
+        <Link 
+          href="/projects"
+          className="inline-block bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 text-white font-semibold px-8 py-3 rounded-lg transition-colors duration-300"
+        >
           View My Work
-        </button>
+        </Link>
       </div>
     </section>
   );

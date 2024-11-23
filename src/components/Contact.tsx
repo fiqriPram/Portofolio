@@ -56,19 +56,6 @@ const Contact = () => {
           <div className="bg-white dark:bg-slate-800 p-8 rounded-lg shadow-lg">
             <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Or reach me directly:</h3>
             <div className="space-y-4">
-              <div className="flex items-center space-x-3 group">
-                <div className="w-10 h-10 flex items-center justify-center rounded-full bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-400 group-hover:scale-110 transition-all">
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                  </svg>
-                </div>
-                <a
-                  href="mailto:fiqripramudya01@example.com"
-                  className="text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 transition-colors"
-                >
-                  fiqripramudya01@example.com
-                </a>
-              </div>
               
               <div className="flex items-center space-x-3 group">
                 <div className="w-10 h-10 flex items-center justify-center rounded-full bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-400 group-hover:scale-110 transition-all">
