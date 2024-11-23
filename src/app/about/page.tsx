@@ -1,11 +1,9 @@
 import About from '@/components/About';
-import Header from '@/components/Header';
 
 export default function AboutPage() {
   return (
     <div className="min-h-screen">
-      <Header />
-      <main className="pt-20">
+      <main className="pt-16">
         <About />
       </main>
     </div>
