@@ -9,10 +9,10 @@ const About = () => {
           <div className="bg-white dark:bg-slate-800 p-8 rounded-lg shadow-lg">
             <h3 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-white">Who I Am</h3>
             <p className="text-gray-700 dark:text-gray-300 mb-6">
-              I&apos;m a passionate Frontend Developer with a keen eye for creating beautiful and functional web experiences. I specialize in building responsive websites that provide seamless user experiences.
+              I&apos;m a passionate student exploring the world of Frontend Development with a keen interest in creating beautiful and functional web experiences.
             </p>
             <p className="text-gray-700 dark:text-gray-300">
-              My journey in web development started with a curiosity for how things work on the internet, and it has evolved into a professional pursuit of creating elegant solutions for web-based problems.
+              My journey began with a curiosity about how things work on the internet, and I&apos;m now diving into learning how to build responsive websites that provide seamless user experiences. While I am still new to frontend web development, I am focused on growing my skills and solving web-based problems with creative and elegant solutions.
             </p>
           </div>
 
