@@ -12,6 +12,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <Link 
             href="/"
+            scroll={false}
             className="text-2xl font-extrabold text-blue-600 dark:text-blue-400 font-mono hover:text-blue-700 dark:hover:text-blue-300 transition-colors"
           >
             Adytm__
@@ -19,6 +20,7 @@ const Header = () => {
           <div className="hidden md:flex space-x-8">
             <Link 
               href="/about"
+              scroll={false}
               className={`font-medium transition-colors ${
                 pathname === '/about'
                   ? 'text-blue-600 dark:text-blue-400'
@@ -29,6 +31,7 @@ const Header = () => {
             </Link>
             <Link 
               href="/projects"
+              scroll={false}
               className={`font-medium transition-colors ${
                 pathname === '/projects'
                   ? 'text-blue-600 dark:text-blue-400'
@@ -39,6 +42,7 @@ const Header = () => {
             </Link>
             <Link 
               href="/skills"
+              scroll={false}
               className={`font-medium transition-colors ${
                 pathname === '/skills'
                   ? 'text-blue-600 dark:text-blue-400'
@@ -49,6 +53,7 @@ const Header = () => {
             </Link>
             <Link 
               href="/contact"
+              scroll={false}
               className={`font-medium transition-colors ${
                 pathname === '/contact'
                   ? 'text-blue-600 dark:text-blue-400'
