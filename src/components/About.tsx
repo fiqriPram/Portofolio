@@ -9,10 +9,13 @@ const About = () => {
           <div className="bg-white dark:bg-slate-800 p-8 rounded-lg shadow-lg">
             <h3 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-white">Who I Am</h3>
             <p className="text-gray-700 dark:text-gray-300 mb-6">
-              I&apos;m a passionate student exploring the world of Frontend Development with a keen interest in creating beautiful and functional web experiences.
+              I&apos;m a passionate student exploring the world of web development, both frontend and backend.
+            </p>
+            <p className="text-gray-700 dark:text-gray-300 mb-6">
+              With a strong curiosity about how the internet works, I started my journey in this field to understand and create comprehensive solutions. Currently, I&apos;m learning to build responsive and functional websites with seamless user experiences while also deepening my backend skills to develop efficient and reliable applications.
             </p>
             <p className="text-gray-700 dark:text-gray-300">
-              My journey began with a curiosity about how things work on the internet, and I&apos;m now diving into learning how to build responsive websites that provide seamless user experiences. While I am still new to frontend web development, I am focused on growing my skills and solving web-based problems with creative and elegant solutions.
+              Although I&apos;m still at the beginning of my journey, I&apos;m committed to continuously learning and crafting creative and elegant solutions to web-based challenges.
             </p>
           </div>
 

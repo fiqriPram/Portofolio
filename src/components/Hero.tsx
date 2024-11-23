@@ -10,7 +10,7 @@ const Hero = () => {
           Hi, I&apos;m <span className="text-blue-600 dark:text-blue-400">Fiqri Pramudya</span>
         </h1>
         <p className="text-xl md:text-2xl text-gray-700 dark:text-gray-300 mb-8">
-          Frontend Developer 
+          Frontend Developer | Backend Developer 
         </p>
         <Link 
           href="/projects"
