@@ -4,9 +4,9 @@ const Skills = () => {
       { name: "HTML5", level: 90 },
       { name: "CSS3", level: 85 },
       { name: "JavaScript", level: 60 },
-      { name: "Go/Golang", level: 60 },
-      { name: "Next.js", level: 75 },
-      { name: "Tailwind CSS", level: 70 },
+      { name: "Go/Golang", level: 50 },
+      { name: "Next.js", level: 60 },
+      { name: "Tailwind CSS", level: 60 },
     ],
     tools: [
       { name: "Git", level: 60 },
