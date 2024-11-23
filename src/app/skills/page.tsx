@@ -1,12 +1,12 @@
 import Header from '@/components/Header';
-import Hero from '@/components/Hero';
+import Skills from '@/components/Skills';
 
-export default function Home() {
+export default function SkillsPage() {
   return (
     <div className="min-h-screen">
       <Header />
-      <main>
-        <Hero />
+      <main className="pt-20">
+        <Skills />
       </main>
     </div>
   );

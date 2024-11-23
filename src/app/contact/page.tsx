@@ -1,12 +1,12 @@
 import Header from '@/components/Header';
-import Hero from '@/components/Hero';
+import Contact from '@/components/Contact';
 
-export default function Home() {
+export default function ContactPage() {
   return (
     <div className="min-h-screen">
       <Header />
-      <main>
-        <Hero />
+      <main className="pt-20">
+        <Contact />
       </main>
     </div>
   );
